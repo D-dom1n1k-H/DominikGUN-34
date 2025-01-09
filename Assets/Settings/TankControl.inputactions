@@ -1,14 +1,14 @@
 {
-    "name": "TankControls",
+    "name": "TankControl",
     "maps": [
         {
             "name": "Tank",
-            "id": "bcc7c6a0-9a31-48e1-ae19-e3a3a8a4e7bc",
+            "id": "9b42a979-cca3-4636-8776-e4f0f1bee9c8",
             "actions": [
                 {
                     "name": "Handbreak",
                     "type": "Button",
-                    "id": "8db5019b-f100-4acd-92dd-cd5ce0d8de46",
+                    "id": "903a2f51-02fe-4be8-8de0-7bfb8445fb8c",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -17,7 +17,7 @@
                 {
                     "name": "Movement",
                     "type": "Value",
-                    "id": "9f4ed722-2d11-417a-8817-697aa70f0386",
+                    "id": "97be836c-3177-41ff-976a-034982545a05",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -27,7 +27,7 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "e43010a6-b335-4af9-be95-4434830f83d8",
+                    "id": "56270405-03f1-417a-8ec6-3f5189067e42",
                     "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
@@ -38,7 +38,7 @@
                 },
                 {
                     "name": "WASD",
-                    "id": "f09b910f-6d23-44f8-82d3-5bd7b2ae663c",
+                    "id": "b08cabd1-d53c-4f46-ac8b-0bf203e93eed",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
@@ -49,7 +49,7 @@
                 },
                 {
                     "name": "up",
-                    "id": "9f1694ab-1949-4083-9f6e-16b840c4a269",
+                    "id": "c512fa55-f8e3-462d-8d7b-812e1d5cfad7",
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
@@ -60,7 +60,7 @@
                 },
                 {
                     "name": "down",
-                    "id": "9e0167b7-e02d-4c97-8793-7eabb9f1d333",
+                    "id": "abb55437-af85-457e-b597-16ea962abf3f",
                     "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
@@ -71,7 +71,7 @@
                 },
                 {
                     "name": "left",
-                    "id": "b2a91c4e-37ed-406c-befa-ff472e261ef8",
+                    "id": "b8377b3e-c8c0-4cc9-b3bd-5a3c28e63014",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
@@ -82,7 +82,7 @@
                 },
                 {
                     "name": "right",
-                    "id": "6795e201-9eba-488a-bf5e-4089f6386827",
+                    "id": "3ee11c1b-2cc7-4b24-a28b-fd194a61d0f6",
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
@@ -95,12 +95,12 @@
         },
         {
             "name": "Turret",
-            "id": "bcfee1a8-dacf-46e9-a28d-308ec128ef01",
+            "id": "2ab70bd8-bbc2-4ae5-9a5d-ae90a1107fae",
             "actions": [
                 {
                     "name": "Fire",
                     "type": "Button",
-                    "id": "2292fa0e-9662-47c1-bc11-0e68c2079728",
+                    "id": "b417357c-51b5-407b-b8c4-87fa61cfb3db",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -109,7 +109,7 @@
                 {
                     "name": "Focus",
                     "type": "Value",
-                    "id": "0b0a6164-7013-440e-a181-3e4b3a4eb39b",
+                    "id": "c01e3ed9-dbb3-4a99-988f-079856e2a599",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -119,7 +119,7 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "5dec6133-c110-4761-ad38-ac69bf80cd70",
+                    "id": "47a92bad-51c1-43f1-8f3a-4ea8778a6106",
                     "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
@@ -130,7 +130,7 @@
                 },
                 {
                     "name": "",
-                    "id": "5ea8cb88-62d6-43b7-aae5-6a9c38a0fb42",
+                    "id": "e7134906-ea94-4f6a-ae3b-b46dba6a675a",
                     "path": "<Mouse>/delta",
                     "interactions": "",
                     "processors": "",
